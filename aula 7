@@ -1,0 +1,18 @@
+Ao compreender que além dos tipos primitivos de dados, o Java
+oferece os tipos de referência (classes) correspondentes a todos os
+tipos primitivos, pesquise e identifique um método que lhes chame a
+atenção em cada classe dos tipos Wrapper: Integer, Double,
+Character, Boolean e String.
+Ao final implemente um pequeno algoritmo que utilize pelo
+menos três dos métodos pesquisadosint numero = Integer.parseInt("123");
+int resultado = Double.valueOf(5.5).compareTo(6.0);
+// Retorna -1, 0 ou 1 dependendo da comparação
+
+boolean resultado = Character.isDigit('5');
+// Retorna true, pois '5' é um dígitoboolean resultado = Boolean.parseBoolean("true");
+// Retorna true
+
+String upper = "java".toUpperCase();
+// Retorna "JAVA"
+
+
