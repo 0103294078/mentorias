@@ -1,0 +1,85 @@
+Atividade 01 - Simulando um sistema escolar, crie um algoritmo
+em Java que receba do aluno as 8 notas anuais. O algoritmo deve
+calcular as médias bimestrais, as médias semestrais, e a média
+final.
+Ao final dos cálculos, o algoritmo deve apresentar os resultados de
+forma clara. Por Exemplo:
+
+Práticas
+
+1o Bimestre: 6.0
+2o Bimestre: 7.0
+1o Semestre: 6.5
+----------------------
+3o Bimestre: 8.0
+4o Bimestre: 9.0
+2o Semestre: 8.5
+-----------------------
+Média Final: 7.5import java.util.Scanner;
+
+public class SistemaEscolar {
+    public static void main(String[] args) {
+        // Criação de Scanner para leitura de dados
+        Scanner scanner = new Scanner(System.in);
+        
+        // Declarando as variáveis para as 8 notas
+        double nota1, nota2, nota3, nota4, nota5, nota6, nota7, nota8;
+        
+        // Entrada das notas do aluno
+        System.out.print("Digite a nota do 1º Bimestre: ");
+        nota1 = scanner.nextDouble();
+        System.out.print("Digite a nota do 2º Bimestre: ");
+        nota2 = scanner.nextDouble();
+        System.out.print("Digite a nota do 3º Bimestre: ");
+        nota3 = scanner.nextDouble();
+        System.out.print("Digite a nota do 4º Bimestre: ");
+        nota4 = scanner.nextDouble();
+        System.out.print("Digite a nota do 5º Bimestre: ");
+        nota5 = scanner.nextDouble();
+        System.out
+import java.util.Scanner;
+
+public class ConversaoTemperatura {
+    public static void main(String[] args) {
+        // Criação de Scanner para leitura de dados
+        Scanner scanner = new Scanner(System.in);
+
+        // Leitura da temperatura em Celsius
+        System.out.print("Digite a temperatura em Celsius (°C): ");
+        double celsius = scanner.nextDouble();
+
+        // Cálculo de Fahrenheit e Kelvin
+        double fahrenheit = (celsius * 9/5) + 32;
+        double kelvin = celsius + 273.15;
+
+        // Exibindo os resultados
+        System.out.println("\nPráticas");
+        System.out.println("Temperatura em Celsius: " + celsius + " °C");
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit + " °F");
+        System.out.println("Temperatura em Kelvin: " + kelvin + " K");
+
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+
+
+
+
+Atividade 02 - Desenvolva um algoritmo em Java que receba como entrada
+uma temperatura em graus Celsius (°C) digitada pelo usuário. O programa
+deverá realizar a conversão dessa temperatura para as escalas Fahrenheit
+(°F) e Kelvin (K), utilizando as seguintes fórmulas de conversão:
+
+Fahrenheit (°F) = (Celsius (°C) × 9/5) + 32
+Kelvin (K) = Celsius (°C) + 273.15
+
+Ao final dos cálculos, o algoritmo deve exibir na tela o valor da temperatura
+original em Celsius, juntamente com os valores convertidos em Fahrenheit e
+Kelvin, de forma clara e informativa. Por exemplo:
+Práticas
+
+Temperatura em Celsius: 25.0 °C
+Temperatura em Fahrenheit: 77.0 °F
+Temperatura em Kelvin: 298.15 K
