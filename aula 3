@@ -1,0 +1,112 @@
+Questão-Problema 01: Cadastro de Aluno
+
+Um sistema de cadastro de alunos precisa armazenar as seguintes
+informações: o nome completo do aluno, sua idade, sua altura (em
+metros) e se ele está matriculado ou não.
+
+ Quais variáveis devem ser criadas?
+ Quais tipos de dados cada uma delas deve ter?
+Nome completo do aluno:
+
+Variável: nomeAluno
+
+Tipo de dado: String (Texto, pois o nome completo é composto por caracteres alfanuméricos e espaços)
+
+Idade:
+
+Variável: idade
+
+Tipo de dado: Inteiro (int) (A idade é um número inteiro, sem casas decimais)
+
+Altura (em metros):
+
+Variável: altura
+
+Tipo de dado: Flutuante (float ou double) (A altura é um valor decimal que pode ser representado com casas decimais)
+
+Está matriculado?
+
+Variável: matriculado
+
+Tipo de dado: Booleano (bool) (Armazena um valor de verdadeiro ou falso, indicando se o aluno está matriculado ou não)
+
+
+
+Questão-Problema 02: Informações de Produto
+
+Você foi contratado para criar um programa que registre informações
+de um produto. O programa deve armazenar: o nome do produto, sua
+quantidade em estoque, o preço unitário e se ele está disponível para
+venda.
+
+ Identifique as variáveis necessárias.
+ Determine os tipos de dados adequados para cada uma.Nome do produto:
+
+Variável: nomeProduto
+
+Tipo de dado: String (Texto, pois o nome do produto será composto de caracteres alfanuméricos e espaços)
+
+Quantidade em estoque:
+
+Variável: quantidadeEstoque
+
+Tipo de dado: Inteiro (int) (A quantidade de produtos em estoque é representada por um número inteiro)
+
+Preço unitário:
+
+Variável: precoUnitario
+
+Tipo de dado: Flutuante (float ou double) (O preço do produto é um valor decimal com possíveis centavos)
+
+Disponibilidade para venda:
+
+Variável: disponivelParaVenda
+
+Tipo de dado: Booleano (bool) (Indica se o produto está disponível para venda, com valores true ou false)
+
+
+
+
+Questão-Problema 03: Dados de um Evento
+
+Um organizador de eventos deseja criar um sistema para registrar os
+seguintes dados de um evento: o nome do evento, o número de
+
+participantes esperados, o preço do ingresso e se o evento será
+presencial.
+
+ Quais variáveis você criaria para representar essas informações?
+ Que tipos de dados você usaria para cada variável?Nome do evento:
+
+Variável: nomeEvento
+
+Tipo de dado: String (Texto, já que o nome do evento é composto por caracteres)
+
+Número de participantes esperados:
+
+Variável: numParticipantesEsperados
+
+Tipo de dado: Inteiro (int) (O número de participantes esperados é um valor inteiro)
+
+Preço do ingresso:
+
+Variável: precoIngresso
+
+Tipo de dado: Flutuante (float ou double) (O preço do ingresso pode ter valores decimais)
+
+Evento será presencial?
+
+Variável: eventoPresencial
+
+Tipo de dado: Booleano (bool) (Armazena um valor de verdadeiro ou falso, indicando se o evento será presencial)
+
+
+
+
+
+
+
+
+
+
+
