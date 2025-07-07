@@ -1,0 +1,46 @@
+Questão 01: Verificação de Desconto de Produto
+
+Escreva um algoritmo em Java que declare duas variáveis booleanas
+para armazenar se um produto está com desconto e se o cliente
+possui um cupom de desconto válido. Utilize operadores lógicos para
+determinar se o cliente pode utilizar o desconto.
+O cliente pode utilizar o desconto se o produto estiver com desconto
+OU o cliente tiver o cupom válido. Exiba a mensagem "Descontopublic class VerificacaoDesconto {
+    public static void main(String[] args) {
+        // Declaração das variáveis booleanas
+        boolean produtoComDesconto = true; // exemplo: produto com desconto
+        boolean clienteComCupom = false; // exemplo: cliente sem cupom válido
+
+        // Verificando se o cliente pode utilizar o desconto
+        boolean descontoAplicado = produtoComDesconto || clienteComCupom;
+
+        // Exibindo o resultado
+        System.out.println("Desconto aplicado: " + descontoAplicado);
+    }
+}
+
+aplicado: true" ou "Desconto aplicado: false" no console.
+
+
+Questão 02: Autorização de Compra
+
+Crie um programa em Java que declare duas variáveis booleanas para
+verificar se o cliente tem saldo suficiente e se ele tem uma conta
+verificada. Utilize operadores lógicos para determinar se a compra
+pode ser autorizada.
+A compra é autorizada se o cliente tiver saldo suficiente E a conta
+estiver verificada. Exiba a mensagem "Compra autorizadapublic class AutorizacaoCompra {
+    public static void main(String[] args) {
+        // Declaração das variáveis booleanas
+        boolean saldoSuficiente = true; // exemplo: saldo suficiente
+        boolean contaVerificada = true; // exemplo: conta verificada
+
+        // Verificando se a compra pode ser autorizada
+        boolean compraAutorizada = saldoSuficiente && contaVerificada;
+
+        // Exibindo o resultado
+        System.out.println("Compra autorizada: " + compraAutorizada);
+    }
+}
+: true" ou
+"Compra autorizada: false" no console.
