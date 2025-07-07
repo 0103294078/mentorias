@@ -1,0 +1,117 @@
+Questão-Problema 01: Cadastro de Aluno
+
+Um sistema de cadastro de alunos precisa armazenar as seguintes
+informações: o nome completo do aluno, sua idade, sua altura (em
+metros) e se ele está matriculado ou não.
+
+ Quais variáveis devem ser criadas?
+ Quais tipos de dados cada uma delas deve ter?
+Nome completo do aluno:
+
+Variável: nomeAluno
+
+Tipo de dado: String
+Justificativa: O nome do aluno é uma sequência de caracteres, então o tipo String é o mais adequado.
+
+Idade:
+
+Variável: idade
+
+Tipo de dado: int
+Justificativa: A idade é um número inteiro e não precisa de casas decimais.
+
+Altura (em metros):
+
+Variável: altura
+
+Tipo de dado: float ou double
+Justificativa: A altura é um valor numérico com casas decimais, então o tipo float ou double é o mais adequado.
+
+Está matriculado?
+
+Variável: matriculado
+
+Tipo de dado: bool
+Justificativa: O tipo bool é usado para armazenar valores true (matriculado) ou false (não matriculado), o que é ideal para esse caso.
+
+
+
+Questão-Problema 02: Informações de Produto
+
+Você foi contratado para criar um programa que registre informações
+de um produto. O programa deve armazenar: o nome do produto, sua
+quantidade em estoque, o preço unitário e se ele está disponível para
+venda.
+
+ Identifique as variáveis necessárias.
+ Determine os tipos de dados adequados para cada uma.
+Nome do produto:
+
+Variável: nomeProduto
+
+Tipo de dado: String
+Justificativa: O nome do produto é um texto, então o tipo String é adequado.
+
+Quantidade em estoque:
+
+Variável: quantidadeEstoque
+
+Tipo de dado: int
+Justificativa: A quantidade em estoque é um número inteiro, sem necessidade de casas decimais.
+
+Preço unitário:
+
+Variável: precoUnitario
+
+Tipo de dado: float ou double
+Justificativa: O preço do produto é um valor numérico com casas decimais, então o tipo float ou double é o mais adequado.
+
+Disponibilidade para venda:
+
+Variável: disponivelParaVenda
+
+Tipo de dado: bool
+Justificativa: O tipo bool armazena valores true ou false, perfeito para indicar se o produto está disponível para venda.
+
+
+
+Questão-Problema 03: Dados de um Evento
+
+Um organizador de eventos deseja criar um sistema para registrar os
+seguintes dados de um evento: o nome do evento, o número de
+
+participantes esperados, o preço do Nome do evento:
+
+Variável: nomeEvento
+
+Tipo de dado: String
+Justificativa: O nome do evento é composto por texto, então o tipo String é o ideal.
+
+Número de participantes esperados:
+
+Variável: numParticipantesEsperados
+
+Tipo de dado: int
+Justificativa: O número de participantes é um valor inteiro, sem necessidade de casas decimais.
+
+Preço do ingresso:
+
+Variável: precoIngresso
+
+Tipo de dado: float ou double
+Justificativa: O preço do ingresso é um valor numérico com casas decimais, então o tipo float ou double é adequado.
+
+Evento será presencial?
+
+Variável: eventoPresencial
+
+Tipo de dado: bool
+Justificativa: O tipo bool é usado para indicar se o evento será presencial (true ou false).
+
+ingresso e se o evento será
+presencial.
+
+ Quais variáveis você criaria para representar essas informações?
+ Que tipos de dados você usaria para cada variável?
+
+
